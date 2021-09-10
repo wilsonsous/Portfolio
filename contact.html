@@ -5,26 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Wilson Sous</title>
 <!--------Navigation Bar ---------->
 </head>
 <header>
     <h1><span>Wilson Sous</span></h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">About me</a></li>
-            <li><a href="contact.html">Contact me</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">myPage</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume.html" class="nav-link">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+
     </nav>
 </header>
-<!-- Main content of Contact Page -->
+<!-- Front page, also About me page -->
 <body>
     <section>
-    <h2>Contact me</h2>
-    <p>Phone: (678)682-5435</p>
-    <p>E-mail: souswilson@gmail.com</p>
+        <h2>Contact me</h2>
     </section>
+
 </body>
 </html>

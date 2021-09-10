@@ -5,33 +5,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Wilson Sous</title>
 <!--------Navigation Bar ---------->
 </head>
 <header>
-    <h1><span>Wilson Sous</span></h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">About me</a></li>
-            <li><a href="contact.html">Contact me</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">myPage</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume.html" class="nav-link">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+
     </nav>
 </header>
 <!-- Front page, also About me page -->
 <body>
-    <section>
-        <h2>About me</h2>
-    </section>
-    <div class="container">
-        <div class="image">
-            <img id="img" src="images/Profile.jpg" alt="Profile Picture">
-            <div class="text">
-                <h1>Greetings! My name is Wilson and I am a student at Georgia Tech Coding Bootcamp Program. I am currently most interested in html, css, and javascript. 
-                    I am looking forward into creating more projects and enhance my skills to become a fullstack web developer. </h1>
+
+        <div class="container-fluid">
+
+            <div class="row extra_margin">
+
+                <div class="col-md-2">
+                    <div class="text-center"></div>
+                        <img src="Images/Profile.jpg" class="img-fluid"/>
+                    
+                        <h2>Wilson Sous</h2>
+                    
+                </div>
+
+                    <div class="col-md-6">
+
+                        <p class="lead">
+                            Hi, my name is Wilson Sous. I am currently a student at Georgia Tech Coding Bootcamp. Aspiring to be a fullstack web developer in the upcoming year.
+                            My goal is to learn as much as possible in a professional environment and understanding the crucial point of teamwork in the tech field.
+                        </p>
+
+                    </div>
+
+
             </div>
+
         </div>
-    </div>
+        <!------------------ Footer  ---------------->
+        <footer class="footer mt-auto">
+            <div class="row copyright-border">&nbsp;</div>
+            <div class="row copyright">
+              <div class="text-left my-2 w-100 col-6">&#x24B8; 2021 Copyright</div>
+              <div class="text-right col-6">
+                <a href="https://www.linkedin.com/in/wilson-sous-20ab82200/">
+                  <img width="50" height="25" src="Images/linkedin.png" />
+                </a>
+                <a href="https://github.com/wilsonsous">
+                  <img width="50" height="35" src="Images/github.png" />
+                </a>
+              </div>
+            </div>
+          </footer>
+          <script src="./Assets/script.js"></script>
 </body>
 </html>
