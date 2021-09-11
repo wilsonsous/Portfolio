@@ -12,7 +12,6 @@
 <!--------Navigation Bar ---------->
 </head>
 <header>
-    <h1><span>Wilson Sous</span></h1>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a href="#" class="navbar-brand">myPage</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
@@ -36,9 +35,43 @@
 </header>
 <!-- Front page, also About me page -->
 <body>
-    <section>
-        <h2>Contact me</h2>
-    </section>
+    <div class="container contact-form">
+        <h1>contact me</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Email: souswilson@gmail.com</p>
+                <p>phone: 6786834591</p>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
 
+    <style>
+        .contact-form {
+            background: rgba(0,0,0, .6);
+            color: white;
+            margin-top: 100px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 3px grey;
+        }
+    </style>
+
+        <!------------------ Footer  ---------------->
+        <footer class="footer mt-auto">
+            <div class="row copyright-border">&nbsp;</div>
+            <div class="row copyright">
+              <div class="text-left my-2 w-100 col-6">&#x24B8; 2021 Copyright</div>
+              <div class="text-right col-6">
+                <a href="https://www.linkedin.com/in/wilson-sous-20ab82200/">
+                  <img width="50" height="25" src="Images/linkedin.png" />
+                </a>
+                <a href="https://github.com/wilsonsous">
+                  <img width="50" height="35" src="Images/github.png" />
+                </a>
+              </div>
+            </div>
+          </footer>
+          <script src="./Assets/script.js"></script>
 </body>
 </html>

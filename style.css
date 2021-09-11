@@ -25,3 +25,7 @@ height: 60px;
 background: grey;
 border-top: 3px solid ;   
 }
+
+[class*="col-"] {
+  padding: 1rem;
+}
