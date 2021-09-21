@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Wilson Sous</title>
 <!--------Navigation Bar ---------->
@@ -34,61 +36,79 @@
     </nav>
 </header>
 <!-- Front page, also About me page -->
-<body>
-<div class="container-fluid padding">
-<div class="row welcome text-center">
-    <div class="col-12">
-        <h1 class="display-4">My Work</h1>
-    </div>
-    <hr>
-</div>    
-</div>
 
-<div class="container-fluid padding">
-<div class="row padding">
-    <div class="col-md-4">
-        <div class="card">
-            <img class="card-img-top" src="Images/quiz.jpg">
+<article class="container my-5 ml-2">
+    <div class="main-layout col-lg-9 col-sm-12">
+      <div class="row w-100">
+        <header class="col-12 mt-3">
+          <h1 class="page-header border-bottom font-weight-bold">Portfolio</h1>
+        </header>
+      </div>
+      <div class="row text-center mr-2">
+        <div class="col-lg-6 col-md-12 py-3">
+          <div class="card" style="width: 18rem">
+            <img src="./Images/quiz.jpg" class="card-img-top" alt="Code-Quiz" />
             <div class="card-body">
-                <h4 class="card-title">Code Quiz</h4>
-                <p class="card-text">Need a little Javascript quiz to jog your memory? This application is made just for that!</p>
-                <a href="https://wilsonsous.github.io/Coding-Quiz/" class="btn btn-outline-secondary">See app here</a>
+              <h5 class="card-title">Code Quiz</h5>
+              <p class="card-text">Quick quiz for javascript beginners!</p>
             </div>
-        </div>
-    </div>
-</div>    
-</div>
-
-<div class="container-fluid padding">
-    <div class="row padding">
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card-img-top" src="Images/generator.png">
-                <div class="card-body">
-                    <h4 class="card-title">Password Generator</h4>
-                    <p class="card-text">Quick password generator for when you want a secure password in a matter of seconds.</p>
-                    <a href="https://wilsonsous.github.io/Password-Generator/" class="btn btn-outline-secondary">See app here</a>
-                </div>
+            <div class="card-body">
+              <a href="https://wilsonsous.github.io/Coding-Quiz/" class="btn btn-primary">Live Site</a>
+              <a href="https://github.com/wilsonsous/Coding-Quiz" class="btn btn-primary">GitHub Repo</a>
             </div>
+          </div>
         </div>
-    </div>    
+        <div class="col-lg-6 col-md-12 py-3">
+          <div class="card" style="width: 18rem">
+            <img src="./Images/generator.png" class="card-img-top" alt="Password-Generator" />
+            <div class="card-body">
+              <h5 class="card-title">Password Generator</h5>
+              <p class="card-text">
+                Password generator for quick and easy secured password with the push of a button!
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="https://wilsonsous.github.io/Password-Generator/" class="btn btn-primary">Live Site</a>
+              <a href="https://github.com/wilsonsous/Password-Generator" class="btn btn-primary">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 py-3">
+          <div class="card" style="width: 18rem">
+            <img src="./Images/budget.png" class="card-img-top" alt="Food Log App" />
+            <div class="card-body">
+              <h5 class="card-title">Budget Tracker</h5>
+              <p class="card-text">Track your budget anytime either online or offline at your disposal</p>
+            </div>
+            <div class="card-body">
+              <a href="https://fast-escarpment-52282.herokuapp.com/" class="btn btn-primary">Live Site</a>
+              <a href="https://github.com/wilsonsous/Budget-Tracker" class="btn btn-primary">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
+  </article>
 
         <!------------------ Footer  ---------------->
-        <footer class="footer mt-auto">
-            <div class="row copyright-border">&nbsp;</div>
-            <div class="row copyright">
-              <div class="text-left my-2 w-100 col-6">&#x24B8; 2021 Copyright</div>
-              <div class="text-right col-6">
-                <a href="https://www.linkedin.com/in/wilson-sous-20ab82200/">
-                  <img width="50" height="25" src="Images/linkedin.png" />
-                </a>
-                <a href="https://github.com/wilsonsous">
-                  <img width="50" height="35" src="Images/github.png" />
-                </a>
-              </div>
-            </div>
-          </footer>
-          <script src="./Assets/script.js"></script>
+        <div class="footer-dark fixed-bottom">
+            <footer>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col item social">
+                            <a href="#"><i class="icon ion-social-linkedin"></i></a>
+                            <a href="#"><i class="icon ion-social-github"></i></a>
+                            <a href="#"><i class="icon ion-email"></i></a>
+                        </div>
+                    </div>
+                    <p class="copyright">Company Name © 2021</p>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <script src="./Assets/script.js"></script>
 </body>
 </html>
